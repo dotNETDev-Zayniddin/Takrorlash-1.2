@@ -29,16 +29,15 @@ namespace Takrorlash
                     System.Console.Write(" " + i);
                   }   
             }
-            Console.WriteLine("");
-           
+            
             int min = myArr[0];
             int max = myArr[0];
+            
             for(int i = 0; i < myArr.Length; i++)
             {
                 if(max <= myArr[i])
                 {
                     max = myArr[i];
-
                 }
                 else if(min >= myArr[i]){
                     min = myArr[i];
